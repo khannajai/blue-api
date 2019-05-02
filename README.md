@@ -23,12 +23,13 @@ deactivate
 pip install -r requirements.txt
 ```
 
-## Run swagger UI to test API
+## Run swagger UI to test API and make requests
 ```
 python app/app.py
 ```
 
-## Run tests (pending)
+## Run unit tests
 ```
-python test/test_blue_api
+python app/test_blue_api.py
 ```
+This will run a development server and make the test requests. To exit the server and see the test results, press `Ctrl-C`
